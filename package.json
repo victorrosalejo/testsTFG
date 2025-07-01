@@ -1,8 +1,7 @@
 {
   "name": "teststfg",
   "version": "1.0.0",
-  "type": "module"
-
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
