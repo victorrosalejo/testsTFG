@@ -1,5 +1,3 @@
-import 'd3';
-
 function BVH({
   data,
   xPartitions = 10,
