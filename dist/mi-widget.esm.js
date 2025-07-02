@@ -1,16 +1,12 @@
-function hola(nombre) {
-  return `Hola, ${nombre}!`;
-}
+import 'd3';
 
-function adios(nombre) {
-  return `Adiós, ${nombre}!`;
-}
+function BVH({
+  data,
+  xPartitions = 10,
+  yPartitions = 10,
+  polylines = true,
+}) {
+    return BVH;
+  }
 
-function crearBoton(texto) {
-  const btn = document.createElement("button");
-  btn.textContent = texto;
-  btn.onclick = () => alert("¡Hiciste clic!");
-  return btn;
-}
-
-export { adios, crearBoton, hola };
+export { BVH as default };
